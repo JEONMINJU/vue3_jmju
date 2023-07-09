@@ -38,7 +38,7 @@
 				e.preventDefault();
 				
 				if(todo.value === "") {
-					hasError.value = true; // error  있다
+					hasError.value = true;
 				}
 				else {
 					context.emit('add-todo', {

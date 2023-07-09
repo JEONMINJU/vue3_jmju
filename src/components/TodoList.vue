@@ -32,7 +32,7 @@
 
 <script>
 export default {
-		props: ['todos'], // props로 todos를 받아오는구나
+		props: ['todos'],
 
 		setup(props, context) {
 			const toggleTodo = (index) => {
